@@ -35,7 +35,11 @@ Usage
 ------
 utils.geo_utils.py provides an interface for calling Geosteiner. 
 
-eval = Evaluator(); rsmt = eval.gst_rsmt() # rectilinear steiner minimum tree; rmst = eval.gst_rmst() # rectilinear minimum spanning tree
+eval = Evaluator(); 
+
+rsmt = eval.gst_rsmt() # rectilinear steiner minimum tree; 
+
+rmst = eval.gst_rmst() # rectilinear minimum spanning tree
 
 /saved/nnsteiner500.pt provides a trained model
 
